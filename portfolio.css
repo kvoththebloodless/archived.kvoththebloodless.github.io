@@ -1,0 +1,124 @@
+.headercss
+{
+	position: fixed;
+	top:0;
+	z-index: 999;
+	background-color: white;
+	transition-property: box-shadow;
+	transition-duration: 0.1s;
+}
+.introcss{
+	position: relative;
+	padding:2%;
+margin-top: 20%;
+	text-align: center; 
+  z-index: 1;
+  background-color: #fff;
+  
+}
+.big-font{
+	font-size:4em;
+}
+.decent-space-top
+{
+	margin:5%;
+}
+.relpos{
+	position: relative;
+	margin-top: 5%
+}
+.imagepos{
+	max-width: 50%;
+    height: auto;
+      border-radius: 50%;
+}
+.about-section{
+	position: relative;
+	padding: 5%;
+	background-color:#EA3546;
+	color: #ffffff;
+
+}
+
+.font{
+font-family: 'Raleway Thin.ttf';
+}
+img.crossfade{
+position:absolute;
+  left:0;
+  animation-name:cf4FadeInOut;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+ } 
+@keyframes cf4FadeInOut {
+  0% {
+    opacity:1;
+  }
+  6.25% {
+    opacity:1;
+  }
+  12.5% {
+    opacity:0;
+  }
+  93.75% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@media only screen and(max-width: 468px)
+{
+
+}
+@media only screen and (min-width: 468px) {
+    /* For desktop: */
+ .introcss{
+
+margin-top: 10%;
+
+}
+.imagepos{
+	max-width: 25%;
+    height: auto;
+      border-radius: 50%;
+}
+.relpos{
+	position: relative;
+	margin-top: 1%
+}
+
+}
+
+
+img.crossfade:nth-of-type(1) {
+	opacity: 0;
+  animation-delay: 14s;
+}
+img.crossfade:nth-of-type(2) {
+	opacity: 0;
+  animation-delay: 12s;
+}
+img.crossfade:nth-of-type(3) {
+	opacity: 0;
+  animation-delay: 10s;
+}
+img.crossfade:nth-of-type(4) {
+	opacity: 0;
+  animation-delay: 8s;
+}
+img.crossfade:nth-of-type(5) {
+	opacity: 0;
+  animation-delay: 6s;
+}
+img.crossfade:nth-of-type(6) {
+	opacity: 0;
+  animation-delay: 4s;
+}
+img.crossfade:nth-of-type(7) {
+	opacity: 0;
+  animation-delay: 2s;
+}
+img.crossfade:nth-of-type(8) {
+  animation-delay: 0s;
+}

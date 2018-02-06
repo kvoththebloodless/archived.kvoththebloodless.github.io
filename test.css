@@ -1,0 +1,41 @@
+div img{
+position:absolute;
+  left:0;
+  animation-name:cf4FadeInOut;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+ } 
+@keyframes cf4FadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+div img:nth-of-type(1) {
+  opacity: 0;
+  animation-delay: 6s;
+}
+div img:nth-of-type(2) {
+	opacity: 0;
+  animation-delay: 4s;
+}
+div img:nth-of-type(3) {
+	opacity: 0;
+  animation-delay: 2s;
+}
+div img:nth-of-type(4) {
+  animation-delay: 0;
+}
