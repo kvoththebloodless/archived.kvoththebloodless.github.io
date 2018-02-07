@@ -1,5 +1,6 @@
 window.onscroll = function() {myfunction();};
 
+
 function myfunction()
 {
 	var navbar=document.getElementsByClassName('headercss');
@@ -9,3 +10,13 @@ function myfunction()
 	else
 		navbar[0].style.boxShadow="1px 6px 6px -6px";
 }
+
+// function switchBackground(x)
+// {section=document.getElementById("project-section");
+
+//  switch(x.id)
+//  {
+	
+//  	case "wegmans": section.style.backgroundImage = "url(images/moveappbanner.jpeg)";
+//  }
+// }
