@@ -9,10 +9,9 @@
 }
 .card-padding{
   padding: 2%;
+  float: left;
 }
-.card-img-top:hover{
 
-}
 .introcss{
 	position: relative;
 	padding:2%;
@@ -45,9 +44,10 @@ margin-top: 20%;
 	color: #ffffff;
 }
 .indicator-css{
-display: block;
-margin:0 auto;
-width: 10%;
+text-align: center;
+}
+.textaftercard{
+
 }
 
 .font{

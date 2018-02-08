@@ -10,6 +10,14 @@ function myfunction()
 	else
 		navbar[0].style.boxShadow="1px 6px 6px -6px";
 }
+function gohere()
+{
+	e.preventDefault();
+    var section = $(this).attr("href");
+    $("html, body").animate({
+        scrollTop: $(section).offset().top
+    });
+}
 
 // function switchBackground(x)
 // {section=document.getElementById("project-section");
