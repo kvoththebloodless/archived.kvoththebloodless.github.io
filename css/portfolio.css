@@ -43,6 +43,19 @@ margin-top: 20%;
 	background-color:#EA3546;
 	color: #ffffff;
 }
+.research-section{
+  position: relative;
+  padding: 5%;
+  background-color:#FFFFFF;
+  color: #000000
+}
+
+.contact-section{
+  position: relative;
+  padding: 5%;
+  background-color:#000000;
+  color: #ffffff
+}
 .indicator-css{
 text-align: center;
 }
