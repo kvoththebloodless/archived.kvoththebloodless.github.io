@@ -20,14 +20,14 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
 							
-							<li class="nav-item active">
-								<a class="nav-link" href="#">Projects</a>
+							<li class="nav-item">
+								<a class="nav-link active" href="#project-section">Projects</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Research</a>
+								<a class="nav-link" href="#research-section">Research</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link" href="#contact-section">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -55,9 +55,9 @@
 					</section>
 					<section class="about-section" id="project-section">
 						<H1 class="big-font" ><b>Here's some of my work....</b></H1>
-						<div class="decent-space-top container">
+						<div class="decent-space-top container-fluid">
 							<div class="row justify-content-start">
-								<div class="col-sm-4">
+								<div class="col-sm-3">
 									<div class="card mb-3 text-dark bg-light card-padding">
 										<img  class="card-img-top" onmouseover="switchBackground(this)" src="images/wegmanpic.jpg" alt="http://lwvnaperville.org/wp-content/uploads/2017/06/placeholder.png" id="wegmans">
 										<div class="card-body">
@@ -70,7 +70,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-4">
+								<div class="col-sm-3">
 									<div class="card mb-3 text-dark bg-light card-padding">
 										<img  class="card-img-top" onmouseover="switchBackground(this)" src="images/uarsafe.jpeg" alt="http://lwvnaperville.org/wp-content/uploads/2017/06/placeholder.png" id="uarsafe">
 										<div class="card-body">
@@ -82,7 +82,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-4">
+								<div class="col-sm-3 clearfix">
 									<div class="card mb-3 text-dark bg-light card-padding">
 										<img  class="card-img-top" onmouseover="switchBackground(this)" src="images/sunshinewearable.png" alt="http://lwvnaperville.org/wp-content/uploads/2017/06/placeholder.png" id="sunshine">
 										<div class="card-body">
@@ -95,10 +95,10 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							<!-- </div> -->
 
-							<div class="row justify-content-start">
-								<div class="col-sm-4">
+							<!-- <div class="row justify-content-start"> -->
+								<div class="col-sm-3">
 									<div class="card mb-3 text-dark bg-light card-padding">
 										<img  class="card-img-top" onmouseover="switchBackground(this)" src="images/screenstock.png" alt="http://lwvnaperville.org/wp-content/uploads/2017/06/placeholder.png" id="stockhawk">
 										<div class="card-body">
@@ -110,7 +110,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-4">
+								<div class="col-sm-3">
 									<div class="card mb-3 text-dark bg-light card-padding">
 										<img  class="card-img-top" onmouseover="switchBackground(this)" src="images/movieapp.JPG" alt="http://lwvnaperville.org/wp-content/uploads/2017/06/placeholder.png" id="movieapp">
 										<div class="card-body">
@@ -122,7 +122,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-4">
+								<div class="col-sm-3">
 									<div class="card mb-3 text-dark bg-light card-padding">
 										<img  class="card-img-top" onmouseover="switchBackground(this)" src="images/placeholders.png" id="jokes4u">
 										<div class="card-body">
@@ -135,9 +135,9 @@
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="row justify-content-start" >
-								<div class="col-sm-4">
+							<!-- </div> -->
+							<!-- <div class="row justify-content-start" > -->
+								<div class="col-sm-3">
 									<div class="card mb-3 text-dark bg-light card-padding">
 										<img  class="card-img-top" onmouseover="switchBackground(this)" src="images/xyzreadergif.gif" alt="http://lwvnaperville.org/wp-content/uploads/2017/06/placeholder.png" id="xyz">
 										<div class="card-body">
@@ -150,7 +150,7 @@
 									</div>
 
 								</div>
-									<div class="col-sm-4">
+									<div class="col-sm-3">
 									<div class="card mb-3 text-dark bg-light card-padding">
 										<img  class="card-img-top" " src="images/github.png" alt="http://lwvnaperville.org/wp-content/uploads/2017/06/placeholder.png" id="xyz">
 										<div class="card-body">
@@ -163,20 +163,17 @@
 									</div>
 
 								</div>
-</div>
+<!-- </div> -->
 								</div>
 
 							</div>
 
 						</div>
 	
-<!-- 
-						<div class="indicator-css">
-					<button type="button" class="btn btn-danger" onclick="gohere()">My Research</button>
-						</div> -->
+
 					</section>
 					
-					<section class="research-section">
+					<section class="research-section" id="research-section">
 						<p class="big-font" >
 							Research
 						</p>
@@ -200,7 +197,7 @@ System?</h5>
   </div>
 </div>
 					</section>
-	<section class="contact-section">
+	<section class="contact-section" id="contact-section">
 	<div class="card text-dark">
 
     <div class="card-body" >
@@ -216,9 +213,10 @@ System?</h5>
 					<!-- Optional JavaScript -->
 					<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-					<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+					<script src="https://code.jquery.com/jquery-3.1.0.js"  crossorigin="anonymous"></script>
+					<script src="js/portfolio.js"></script>
 					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-					<script src="js/portfolio.js"></script>
+				
 				</body>
 				</html>

@@ -1,5 +1,15 @@
 window.onscroll = function() {myfunction();};
 
+$(".nav-item a").on("click", function(event){
+   event.preventDefault();
+    var section = $(this).attr("href");
+    $("html, body").animate({
+        scrollTop: $(section).offset().top
+    });
+   $(".navbar-nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+
+});
 
 function myfunction()
 {
@@ -12,11 +22,8 @@ function myfunction()
 }
 function gohere()
 {
-	e.preventDefault();
-    var section = $(this).attr("href");
-    $("html, body").animate({
-        scrollTop: $(section).offset().top
-    });
+
+
 }
 
 // function switchBackground(x)
