@@ -12,18 +12,6 @@
   float: left;
 }
 
-.introcss{
-	position: relative;
-	padding:2%;
-margin-top: 20%;
-	text-align: center; 
-  z-index: 1;
-  background-color: #fff;
-  
-}
-.big-font{
-	font-size:4em;
-}
 .decent-space-top
 {
 	margin:5%;
@@ -37,35 +25,85 @@ margin-top: 20%;
     height: auto;
       border-radius: 50%;
 }
+
+.introcss{
+  position: relative;
+padding: 5%;
+margin-top: 20%;
+  text-align: center; 
+  z-index: 1;
+  
+}
+
+
 .about-section{
 	position: relative;
-	padding: 5%;
-	background-color:#EA3546;
-	color: #ffffff;
+padding:5%;
+
+  min-height: 500px;
+  color: #ffffff;
+
 }
 .research-section{
   position: relative;
-  padding: 5%;
-  background-color:#FFFFFF;
-  color: #000000
+    color: #ffffff;
+    padding:5%;
+/*  background-color:#FFFFFF;*/
+
 }
 
 .contact-section{
   position: relative;
   padding: 5%;
-  background-color:#000000;
+  clear: both;
+/*  background-color:#000000;*/
   color: #ffffff
 }
 .indicator-css{
 text-align: center;
 }
-.textaftercard{
+.project-card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+ transition-property: box-shadow;
+  transition-duration: 0.5s;
+}
+.project-card:hover{
+ box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.5); 
 
 }
+.research-card:hover{
+  box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.5); 
+}
 
-.font{
+.theme{
+
+  background-image: linear-gradient(0deg,#000000,#ffffff);
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+}
+.heavy-font {
+  
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -2%;
+}
+.subtitle-font{
+  font-size:3em;
+}
+.title-font{
+  font-size:4em;
+}
+
+.research-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+ transition-property: box-shadow;
+  transition-duration: 0.5s;
+
+}
+/*.font{
 font-family: 'Raleway Thin.ttf';
-}
+}*/
 img.crossfade{
 position:absolute;
   left:0;

@@ -1,6 +1,6 @@
 window.onscroll = function() {myfunction();};
 
-$(".nav-item a").on("click", function(event){
+$(".nav-item a, .navbar-brand").on("click", function(event){
    event.preventDefault();
     var section = $(this).attr("href");
     $("html, body").animate({
@@ -10,6 +10,7 @@ $(".nav-item a").on("click", function(event){
    $(this).parent().addClass("active");
 
 });
+
 
 function myfunction()
 {
