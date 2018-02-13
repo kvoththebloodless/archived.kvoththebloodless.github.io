@@ -61,7 +61,7 @@
      box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.5);
 }
  .theme{
-     background-image: linear-gradient(0deg,#000000,#ffffff);
+     background-image: linear-gradient(0deg,#000,#fff);
      font-family: Poppins,Helvetica,Arial,sans-serif;
 }
  .heavy-font {
@@ -87,6 +87,22 @@
      animation-duration: 14s;
      animation-iteration-count: infinite;
 }
+ @media only screen and (min-width: 468px) {
+     .introcss{
+         margin-top: 10%;
+    }
+     .imagepos{
+         max-width: 25%;
+         height: auto;
+         border-radius: 50%;
+    }
+     .relpos{
+         position: relative;
+         margin-top: 1% 
+    }
+}
+
+/*Following was Understood and implemented from http://css3.bradshawenterprises.com/cfimg/*/
  @keyframes cf4FadeInOut {
      0% {
          opacity:1;
@@ -102,20 +118,6 @@
     }
      100% {
          opacity:1;
-    }
-}
- @media only screen and (min-width: 468px) {
-     .introcss{
-         margin-top: 10%;
-    }
-     .imagepos{
-         max-width: 25%;
-         height: auto;
-         border-radius: 50%;
-    }
-     .relpos{
-         position: relative;
-         margin-top: 1% 
     }
 }
  img.crossfade:nth-of-type(1) {
